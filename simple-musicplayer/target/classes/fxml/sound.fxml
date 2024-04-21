@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="160.0" prefWidth="60.0" styleClass="sound-root" stylesheets="@../css/player.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="143.0" prefWidth="49.0" styleClass="sound-pane" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <Slider fx:id="soundSlider" layoutX="18.0" layoutY="4.0" orientation="VERTICAL" prefHeight="115.0" prefWidth="14.0" styleClass="sound-slider" value="50.0" />
+            <Line endX="31.833335876464844" endY="7.62939453125E-6" layoutX="13.333333651224773" layoutY="126.0" startX="-8.166666984558105" startY="7.62939453125E-6" stroke="GREY" AnchorPane.leftAnchor="4.666666666666668" AnchorPane.rightAnchor="3.3333333333333286" />
+         </children>
+      </AnchorPane>
+      <Rectangle fill="WHITE" height="18.0" layoutX="21.0" layoutY="138.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="18.0" />
+      <Label fx:id="soundNum" alignment="CENTER" layoutX="6.0" layoutY="131.0" prefHeight="15.0" prefWidth="47.0" text="50%" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>
