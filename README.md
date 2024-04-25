@@ -1,2 +1,1 @@
-基于javaFx组件RxController写的简易播放器。心路历程：每次都要打开qq音乐听太麻烦了，不能显示出厅长在我心中的地位，只为每天能听一遍进步的小曲
-演示：https://www.bilibili.com/video/BV1oM4m1D7xZ/?vd_source=ba35b24d3f02c19cb057e9bf2fdd23db
+基于javaFx组件RxController写的简易播放器。
